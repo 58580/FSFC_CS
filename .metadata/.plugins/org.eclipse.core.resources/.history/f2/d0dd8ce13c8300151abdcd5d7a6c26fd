@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class NumberPyramid {
+	public static void main(String args[]) {
+		 
+        System.out.print("Enter number upto which lines of pyramid you want to print: ");
+        int number = new Scanner(System.in).nextInt();
+ 
+        System.out.println("Pyramid numbers upto " + number +" lines : ");
+                   
+            for(int i=number;){
+                   
+                    for(int j=0; j < i; j++){
+                            System.out.print(j+1);
+                    }
+                   
+                    System.out.println("");
+            }
+        }
+    } 
+
